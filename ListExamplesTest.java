@@ -27,7 +27,7 @@ public void testMerge(){
        ArrayList<String> correctWords = new ArrayList<String>();
        correctWords.add("apple");
        correctWords.add("apple pie");
-       ListExamples sc = new ListExamples(correctWords);
+       StringChecker sc = new testString();
 
        assertArrayEquals(list2.toArray(), ListExamples.filter(list1, sc).toArray());
 
