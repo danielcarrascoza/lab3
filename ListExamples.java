@@ -6,11 +6,7 @@ interface StringChecker { boolean checkString(String s); }
 class testString implements StringChecker{
   public boolean checkString(String s) { return s.length()>4; }
 }
-
-
 class ListExamples{
-
-
   // Returns a new list that has all the elements of the input list for which
   // the StringChecker returns true, and not the elements that return false, in
   // the same order they appeared in the input list;
